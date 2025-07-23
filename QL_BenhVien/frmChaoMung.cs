@@ -1,8 +1,8 @@
 namespace QL_BenhVien
 {
-    public partial class Form1 : Form
+    public partial class frmChaoMung : Form
     {
-        public Form1()
+        public frmChaoMung()
         {
             InitializeComponent();
         }
