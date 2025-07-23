@@ -1,3 +1,4 @@
+using GUI_QLBV;
 namespace QL_BenhVien
 {
     internal static class Program
@@ -11,7 +12,7 @@ namespace QL_BenhVien
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new frmChaoMung());
+            Application.Run(new frmDangNhap());
         }
     }
 }

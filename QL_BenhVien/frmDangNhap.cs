@@ -16,5 +16,12 @@ namespace GUI_QLBV
         {
             InitializeComponent();
         }
+
+        private void frmDangNhap_Load(object sender, EventArgs e)
+        {
+            pnDangNhap.BackColor = Color.FromArgb(230, Color.White);  // Trắng đục
+            pnDangNhap.BorderStyle = BorderStyle.FixedSingle;         // Có viền nhẹ
+
+        }
     }
 }

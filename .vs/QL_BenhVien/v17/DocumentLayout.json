@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\VanCo\\A_VCITQLBV\\QL_BenhVien\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C19C3727-9244-42C1-9E26-2D3D2AFCA939}|QL_BenhVien\\GUI_QLBV.csproj|d:\\vanco\\a_vcitqlbv\\ql_benhvien\\ql_benhvien\\frmchaomung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C19C3727-9244-42C1-9E26-2D3D2AFCA939}|QL_BenhVien\\GUI_QLBV.csproj|solutionrelative:ql_benhvien\\frmchaomung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C19C3727-9244-42C1-9E26-2D3D2AFCA939}|QL_BenhVien\\GUI_QLBV.csproj|d:\\vanco\\a_vcitqlbv\\ql_benhvien\\ql_benhvien\\frmdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C19C3727-9244-42C1-9E26-2D3D2AFCA939}|QL_BenhVien\\GUI_QLBV.csproj|solutionrelative:ql_benhvien\\frmdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,13 +19,13 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "frmChaoMung.cs [Design]",
-              "DocumentMoniker": "D:\\VanCo\\A_VCITQLBV\\QL_BenhVien\\QL_BenhVien\\frmChaoMung.cs",
-              "RelativeDocumentMoniker": "QL_BenhVien\\frmChaoMung.cs",
-              "ToolTip": "D:\\VanCo\\A_VCITQLBV\\QL_BenhVien\\QL_BenhVien\\frmChaoMung.cs [Design]",
-              "RelativeToolTip": "QL_BenhVien\\frmChaoMung.cs [Design]",
+              "Title": "frmDangNhap.cs [Design]",
+              "DocumentMoniker": "D:\\VanCo\\A_VCITQLBV\\QL_BenhVien\\QL_BenhVien\\frmDangNhap.cs",
+              "RelativeDocumentMoniker": "QL_BenhVien\\frmDangNhap.cs",
+              "ToolTip": "D:\\VanCo\\A_VCITQLBV\\QL_BenhVien\\QL_BenhVien\\frmDangNhap.cs [Design]",
+              "RelativeToolTip": "QL_BenhVien\\frmDangNhap.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T13:31:39.664Z",
+              "WhenOpened": "2025-07-23T06:10:47.122Z",
               "EditorCaption": " [Design]"
             }
           ]
