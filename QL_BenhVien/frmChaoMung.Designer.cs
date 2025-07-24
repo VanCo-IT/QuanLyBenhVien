@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmChaoMung));
             pictureBox1 = new PictureBox();
+            progressBar = new ProgressBar();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -44,13 +45,22 @@
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             // 
-            // Form1
+            // progressBar
+            // 
+            progressBar.Dock = DockStyle.Bottom;
+            progressBar.Location = new Point(0, 538);
+            progressBar.Name = "progressBar";
+            progressBar.Size = new Size(884, 23);
+            progressBar.TabIndex = 1;
+            // 
+            // frmChaoMung
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(884, 561);
+            Controls.Add(progressBar);
             Controls.Add(pictureBox1);
-            Name = "Form1";
+            Name = "frmChaoMung";
             Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
@@ -59,5 +69,6 @@
         #endregion
 
         private PictureBox pictureBox1;
+        private ProgressBar progressBar;
     }
 }
