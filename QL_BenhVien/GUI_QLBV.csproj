@@ -9,6 +9,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\BLL_QLBV\BLL_QLBV.csproj" />
+    <ProjectReference Include="..\DTO_QLBV\DTO_QLBV.csproj" />
+    <ProjectReference Include="..\UTIL\UTIL_QLBV.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Update="Properties\Resources.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>

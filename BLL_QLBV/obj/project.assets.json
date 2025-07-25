@@ -1,11 +1,49 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "DAL_QLBV/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "DTO_QLBV": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DAL_QLBV.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL_QLBV.dll": {}
+        }
+      },
+      "DTO_QLBV/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/DTO_QLBV.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DTO_QLBV.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "DAL_QLBV/1.0.0": {
+      "type": "project",
+      "path": "../DAL_QLBV/DAL_QLBV.csproj",
+      "msbuildProject": "../DAL_QLBV/DAL_QLBV.csproj"
+    },
+    "DTO_QLBV/1.0.0": {
+      "type": "project",
+      "path": "../DTO_QLBV/DTO_QLBV.csproj",
+      "msbuildProject": "../DTO_QLBV/DTO_QLBV.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "DAL_QLBV >= 1.0.0",
+      "DTO_QLBV >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Admin\\.nuget\\packages\\": {},
@@ -38,7 +76,14 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\VanCo\\A_VCITQLBV\\QL_BenhVien\\DAL_QLBV\\DAL_QLBV.csproj": {
+              "projectPath": "D:\\VanCo\\A_VCITQLBV\\QL_BenhVien\\DAL_QLBV\\DAL_QLBV.csproj"
+            },
+            "D:\\VanCo\\A_VCITQLBV\\QL_BenhVien\\DTO_QLBV\\DTO_QLBV.csproj": {
+              "projectPath": "D:\\VanCo\\A_VCITQLBV\\QL_BenhVien\\DTO_QLBV\\DTO_QLBV.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
