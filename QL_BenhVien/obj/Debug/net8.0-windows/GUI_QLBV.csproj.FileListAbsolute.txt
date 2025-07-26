@@ -17,3 +17,14 @@ D:\VanCo\A_VCITQLBV\QL_BenhVien\QL_BenhVien\obj\Debug\net8.0-windows\refint\GUI_
 D:\VanCo\A_VCITQLBV\QL_BenhVien\QL_BenhVien\obj\Debug\net8.0-windows\GUI_QLBV.pdb
 D:\VanCo\A_VCITQLBV\QL_BenhVien\QL_BenhVien\obj\Debug\net8.0-windows\GUI_QLBV.genruntimeconfig.cache
 D:\VanCo\A_VCITQLBV\QL_BenhVien\QL_BenhVien\obj\Debug\net8.0-windows\ref\GUI_QLBV.dll
+D:\VanCo\A_VCITQLBV\QL_BenhVien\QL_BenhVien\bin\Debug\net8.0-windows\BLL_QLBV.dll
+D:\VanCo\A_VCITQLBV\QL_BenhVien\QL_BenhVien\bin\Debug\net8.0-windows\DAL_QLBV.dll
+D:\VanCo\A_VCITQLBV\QL_BenhVien\QL_BenhVien\bin\Debug\net8.0-windows\DTO_QLBV.dll
+D:\VanCo\A_VCITQLBV\QL_BenhVien\QL_BenhVien\bin\Debug\net8.0-windows\UTIL_QLBV.dll
+D:\VanCo\A_VCITQLBV\QL_BenhVien\QL_BenhVien\bin\Debug\net8.0-windows\BLL_QLBV.pdb
+D:\VanCo\A_VCITQLBV\QL_BenhVien\QL_BenhVien\bin\Debug\net8.0-windows\DTO_QLBV.pdb
+D:\VanCo\A_VCITQLBV\QL_BenhVien\QL_BenhVien\bin\Debug\net8.0-windows\UTIL_QLBV.pdb
+D:\VanCo\A_VCITQLBV\QL_BenhVien\QL_BenhVien\bin\Debug\net8.0-windows\DAL_QLBV.pdb
+D:\VanCo\A_VCITQLBV\QL_BenhVien\QL_BenhVien\obj\Debug\net8.0-windows\GUI_QLBV.csproj.AssemblyReference.cache
+D:\VanCo\A_VCITQLBV\QL_BenhVien\QL_BenhVien\obj\Debug\net8.0-windows\GUI_QLBV.frmTrangChu.resources
+D:\VanCo\A_VCITQLBV\QL_BenhVien\QL_BenhVien\obj\Debug\net8.0-windows\GUI_QLBV.csproj.Up2Date

@@ -65,8 +65,9 @@
             doanhThuTheoNămToolStripMenuItem = new ToolStripMenuItem();
             lịchSửKhámTheoBácSĩToolStripMenuItem = new ToolStripMenuItem();
             giớiThiệuToolStripMenuItem = new ToolStripMenuItem();
-            aLToolStripMenuItem = new ToolStripMenuItem();
             tổngQuanVềBVToolStripMenuItem = new ToolStripMenuItem();
+            aLToolStripMenuItem = new ToolStripMenuItem();
+            pnTrangChu = new Panel();
             menuStripHeThong.SuspendLayout();
             SuspendLayout();
             // 
@@ -77,7 +78,7 @@
             menuStripHeThong.Items.AddRange(new ToolStripItem[] { hệThốngToolStripMenuItem, bácSĩToolStripMenuItem, bệnhNhânToolStripMenuItem, khoaToolStripMenuItem, phòngToolStripMenuItem, thuốcToolStripMenuItem, khámBệnhToolStripMenuItem, hóaĐơnToolStripMenuItem, báoCáoToolStripMenuItem, giớiThiệuToolStripMenuItem, aLToolStripMenuItem });
             menuStripHeThong.Location = new Point(0, 0);
             menuStripHeThong.Name = "menuStripHeThong";
-            menuStripHeThong.Size = new Size(884, 27);
+            menuStripHeThong.Size = new Size(984, 27);
             menuStripHeThong.TabIndex = 0;
             menuStripHeThong.Text = "menuStrip1";
             // 
@@ -321,6 +322,12 @@
             giớiThiệuToolStripMenuItem.Size = new Size(85, 23);
             giớiThiệuToolStripMenuItem.Text = "Giới thiệu";
             // 
+            // tổngQuanVềBVToolStripMenuItem
+            // 
+            tổngQuanVềBVToolStripMenuItem.Name = "tổngQuanVềBVToolStripMenuItem";
+            tổngQuanVềBVToolStripMenuItem.Size = new Size(191, 24);
+            tổngQuanVềBVToolStripMenuItem.Text = "Tổng quan về BV";
+            // 
             // aLToolStripMenuItem
             // 
             aLToolStripMenuItem.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
@@ -328,17 +335,20 @@
             aLToolStripMenuItem.Size = new Size(38, 23);
             aLToolStripMenuItem.Text = "AL";
             // 
-            // tổngQuanVềBVToolStripMenuItem
+            // pnTrangChu
             // 
-            tổngQuanVềBVToolStripMenuItem.Name = "tổngQuanVềBVToolStripMenuItem";
-            tổngQuanVềBVToolStripMenuItem.Size = new Size(191, 24);
-            tổngQuanVềBVToolStripMenuItem.Text = "Tổng quan về BV";
+            pnTrangChu.Dock = DockStyle.Fill;
+            pnTrangChu.Location = new Point(0, 27);
+            pnTrangChu.Name = "pnTrangChu";
+            pnTrangChu.Size = new Size(984, 602);
+            pnTrangChu.TabIndex = 1;
             // 
             // frmTrangChu
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(884, 561);
+            ClientSize = new Size(984, 629);
+            Controls.Add(pnTrangChu);
             Controls.Add(menuStripHeThong);
             MainMenuStrip = menuStripHeThong;
             Name = "frmTrangChu";
@@ -390,5 +400,6 @@
         private ToolStripMenuItem giớiThiệuToolStripMenuItem;
         private ToolStripMenuItem aLToolStripMenuItem;
         private ToolStripMenuItem tổngQuanVềBVToolStripMenuItem;
+        private Panel pnTrangChu;
     }
 }

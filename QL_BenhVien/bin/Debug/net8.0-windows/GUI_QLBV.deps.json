@@ -7,14 +7,81 @@
   "targets": {
     ".NETCoreApp,Version=v8.0": {
       "GUI_QLBV/1.0.0": {
+        "dependencies": {
+          "BLL_QLBV": "1.0.0",
+          "DTO_QLBV": "1.0.0",
+          "UTIL_QLBV": "1.0.0"
+        },
         "runtime": {
           "GUI_QLBV.dll": {}
+        }
+      },
+      "BLL_QLBV/1.0.0": {
+        "dependencies": {
+          "DAL_QLBV": "1.0.0",
+          "DTO_QLBV": "1.0.0"
+        },
+        "runtime": {
+          "BLL_QLBV.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "DAL_QLBV/1.0.0": {
+        "dependencies": {
+          "DTO_QLBV": "1.0.0"
+        },
+        "runtime": {
+          "DAL_QLBV.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "DTO_QLBV/1.0.0": {
+        "runtime": {
+          "DTO_QLBV.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "UTIL_QLBV/1.0.0": {
+        "dependencies": {
+          "DTO_QLBV": "1.0.0"
+        },
+        "runtime": {
+          "UTIL_QLBV.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
   },
   "libraries": {
     "GUI_QLBV/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BLL_QLBV/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DAL_QLBV/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DTO_QLBV/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UTIL_QLBV/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
