@@ -78,7 +78,7 @@
             menuStripHeThong.Items.AddRange(new ToolStripItem[] { hệThốngToolStripMenuItem, bácSĩToolStripMenuItem, bệnhNhânToolStripMenuItem, khoaToolStripMenuItem, phòngToolStripMenuItem, thuốcToolStripMenuItem, khámBệnhToolStripMenuItem, hóaĐơnToolStripMenuItem, báoCáoToolStripMenuItem, giớiThiệuToolStripMenuItem, aLToolStripMenuItem });
             menuStripHeThong.Location = new Point(0, 0);
             menuStripHeThong.Name = "menuStripHeThong";
-            menuStripHeThong.Size = new Size(984, 27);
+            menuStripHeThong.Size = new Size(900, 27);
             menuStripHeThong.TabIndex = 0;
             menuStripHeThong.Text = "menuStrip1";
             // 
@@ -340,14 +340,14 @@
             pnTrangChu.Dock = DockStyle.Fill;
             pnTrangChu.Location = new Point(0, 27);
             pnTrangChu.Name = "pnTrangChu";
-            pnTrangChu.Size = new Size(984, 602);
+            pnTrangChu.Size = new Size(900, 600);
             pnTrangChu.TabIndex = 1;
             // 
             // frmTrangChu
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(984, 629);
+            ClientSize = new Size(900, 627);
             Controls.Add(pnTrangChu);
             Controls.Add(menuStripHeThong);
             MainMenuStrip = menuStripHeThong;
